@@ -29,3 +29,11 @@ cacheSolve <- function(x, ...) {
   x$setInverse(m)
   m
 }
+
+## TESTING
+
+x = matrix(1:4,2,2)
+d = makeCacheMatrix(x)
+m$get()
+m$getInverse()
+cacheSolve(m)
